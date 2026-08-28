@@ -1,0 +1,58 @@
+{
+  "fertilizer_totals": {
+    "variable_rate_N_kg": 851215.4,
+    "uniform_N_kg": 690288.0,
+    "difference_pct": 23.3
+  },
+  "bounds": [
+    [
+      20.87006492254258,
+      74.32000399071094
+    ],
+    [
+      20.97004741366508,
+      74.41998648183345
+    ]
+  ],
+  "center": [
+    20.920056168103827,
+    74.36999523627219
+  ],
+  "class_counts": {
+    "High": 25525,
+    "Low": 922826,
+    "Moderate": 59000,
+    "Very High": 41225
+  },
+  "class_percent": {
+    "High": 2.4,
+    "Low": 88.0,
+    "Moderate": 5.6,
+    "Very High": 3.9
+  },
+  "mean_confidence": 0.862,
+  "total_area_ha": 11504.8,
+  "data_source": "Real Sentinel-2 imagery (Aug-Sep 2024) + Copernicus DEM, Sakri region",
+  "fertilizer_rates": {
+    "Low": {
+      "N": 78.0,
+      "P": 65.0,
+      "K": 65.0
+    },
+    "Moderate": {
+      "N": 60.0,
+      "P": 50.0,
+      "K": 50.0
+    },
+    "High": {
+      "N": 42.0,
+      "P": 35.0,
+      "K": 35.0
+    },
+    "Very High": {
+      "N": 24.0,
+      "P": 20.0,
+      "K": 20.0
+    }
+  }
+}

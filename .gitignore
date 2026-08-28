@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment files
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
+*.csv
+
+# Trained models
+*.pkl
+
+# Large satellite/geospatial data
+sakri_imagery/
+sakri_elevation/
+sakri_indices/
+sakri_predictions/
+
+# OS
+.DS_Store
+Thumbs.db
