@@ -1,10 +1,7 @@
-from sentinelhub import SHConfig, SentinelHubRequest, DataCollection, MimeType, CRS, BBox
+from sentinelhub import SentinelHubRequest, DataCollection, MimeType, CRS, BBox
+from sentinel_config import get_config
 
-config = SHConfig()
-config.sh_client_id = "sh-ef6cf07e-c451-4e70-a437-c04f0616e761"
-config.sh_client_secret = "JkwoJf6moUxQ5N1B4esN8m8AMCX0tiSs"
-config.sh_base_url = "https://sh.dataspace.copernicus.eu"
-config.sh_token_url = "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/protocol/openid-connect/token"
+config = get_config()
 
 cdse_dem = DataCollection.DEM_COPERNICUS_30.define_from(
     "cdse_dem", service_url=config.sh_base_url
