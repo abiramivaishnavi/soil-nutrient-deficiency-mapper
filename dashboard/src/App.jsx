@@ -212,7 +212,7 @@ function ErrorDots({ rows, ref }) {
       {ref && (
         <g>
           <line x1={padL} x2={W - padR} y1={y(ref.value)} y2={y(ref.value)} stroke={SERIES_B} strokeDasharray="5 4" />
-          <text x={W - padR} y={y(ref.value) - 5} textAnchor="end" style={{ fill: SERIES_B }}>{ref.label}</text>
+          <text x={padL + innerW / 2} y={y(ref.value) - 5} textAnchor="middle" style={{ fill: SERIES_B }}>{ref.label}</text>
         </g>
       )}
       {rows.map((r, i) => (
@@ -422,7 +422,7 @@ function App() {
               <Info text={
                 activeLayer === 'fertility_change' ? 'Red = the predicted class changed between dates. This mostly reflects crop growth stage, not a real change in soil.'
                 : activeLayer === 'fertilizer' ? 'Illustrative heuristic zones — not validated against lab data.'
-                : activeLayer === 'nitrogen' ? 'SoilGrids is an auxiliary gridded soil-property reference layer. It is not the same as the project\'s laboratory soil-test observations.'
+                : activeLayer === 'nitrogen' ? 'SoilGrids is an auxiliary gridded soil-property reference layer. It is not the same as the project\'s laboratory soil-test observations. It is a modelled total-nitrogen estimate (g/kg), while the lab values are available nitrogen (kg/ha) — the two are different quantities and cannot be compared directly.'
                 : 'CEC (Cation Exchange Capacity) describes the soil\'s capacity to retain exchangeable cations and is not a direct measurement of potassium concentration. Shown as a SoilGrids reference layer.'} />
             )}
           </div>
