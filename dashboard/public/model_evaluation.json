@@ -1,0 +1,105 @@
+{
+  "confusion_matrix": {
+    "labels": [
+      "Low",
+      "Moderate",
+      "High",
+      "Very High"
+    ],
+    "counts": [
+      [
+        29948,
+        459,
+        6,
+        29
+      ],
+      [
+        80,
+        5759,
+        297,
+        15
+      ],
+      [
+        1,
+        219,
+        1598,
+        317
+      ],
+      [
+        5,
+        20,
+        294,
+        2330
+      ]
+    ],
+    "row_normalized_pct": [
+      [
+        98.4,
+        1.5,
+        0.0,
+        0.1
+      ],
+      [
+        1.3,
+        93.6,
+        4.8,
+        0.2
+      ],
+      [
+        0.0,
+        10.3,
+        74.8,
+        14.8
+      ],
+      [
+        0.2,
+        0.8,
+        11.1,
+        88.0
+      ]
+    ]
+  },
+  "model_comparison": [
+    {
+      "model": "Random Forest (final)",
+      "random_split_f1": 0.8787,
+      "spatial_block_f1": 0.8721
+    },
+    {
+      "model": "Gradient Boosting",
+      "random_split_f1": 0.8765,
+      "spatial_block_f1": 0.8684
+    },
+    {
+      "model": "Logistic Regression",
+      "random_split_f1": 0.7099,
+      "spatial_block_f1": null
+    },
+    {
+      "model": "K-Means (unsupervised)",
+      "random_split_f1": 0.2125,
+      "spatial_block_f1": null
+    }
+  ],
+  "hyperparameter_tuning": {
+    "baseline_random_split_f1": 0.8787,
+    "tuned_random_split_f1": 0.8792,
+    "baseline_spatial_block_f1": 0.8721,
+    "tuned_spatial_block_f1": 0.8718,
+    "conclusion": "Negligible improvement (within noise) -- defaults were near-optimal"
+  },
+  "permutation_importance": [
+    {
+      "feature": "SAVI",
+      "importance_pct": 67.3
+    },
+    {
+      "feature": "EVI",
+      "importance_pct": 27.2
+    },
+    {
+      "feature": "Elevation",
+      "importance_pct": 5.5
+    }
+  ]
+}

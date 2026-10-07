@@ -1,0 +1,71 @@
+{
+  "spatial_sensitivity": [
+    {
+      "grid": "3x3",
+      "blocks": 9,
+      "mean_f1": 0.8284,
+      "std_f1": 0.0585
+    },
+    {
+      "grid": "4x4",
+      "blocks": 16,
+      "mean_f1": 0.8523,
+      "std_f1": 0.018
+    },
+    {
+      "grid": "5x5",
+      "blocks": 25,
+      "mean_f1": 0.8639,
+      "std_f1": 0.02
+    },
+    {
+      "grid": "6x6",
+      "blocks": 36,
+      "mean_f1": 0.869,
+      "std_f1": 0.0192
+    }
+  ],
+  "calibration": {
+    "bins": [
+      {
+        "bin": "0.0-0.5",
+        "n": 119,
+        "mean_confidence": 0.439,
+        "accuracy": 0.445
+      },
+      {
+        "bin": "0.5-0.6",
+        "n": 873,
+        "mean_confidence": 0.547,
+        "accuracy": 0.54
+      },
+      {
+        "bin": "0.6-0.7",
+        "n": 938,
+        "mean_confidence": 0.647,
+        "accuracy": 0.643
+      },
+      {
+        "bin": "0.7-0.8",
+        "n": 1129,
+        "mean_confidence": 0.746,
+        "accuracy": 0.718
+      },
+      {
+        "bin": "0.8-0.9",
+        "n": 1540,
+        "mean_confidence": 0.849,
+        "accuracy": 0.791
+      },
+      {
+        "bin": "0.9-1.0",
+        "n": 36778,
+        "mean_confidence": 0.995,
+        "accuracy": 0.992
+      }
+    ],
+    "ece": 0.0056,
+    "overall_accuracy": 0.9579,
+    "mean_confidence": 0.9634
+  }
+}

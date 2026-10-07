@@ -1,0 +1,72 @@
+{
+  "fertility_vs_shc": {
+    "no_correction": {
+      "class_counts": {
+        "Very High": 38,
+        "Low": 8,
+        "Moderate": 4
+      },
+      "N": {
+        "spearman_rho": -0.216,
+        "p": 0.131,
+        "kruskal_p": 0.178
+      },
+      "P": {
+        "spearman_rho": 0.252,
+        "p": 0.077,
+        "kruskal_p": 0.068
+      },
+      "K": {
+        "spearman_rho": 0.066,
+        "p": 0.649,
+        "kruskal_p": 0.889
+      }
+    },
+    "quantile_mapped": {
+      "class_counts": {
+        "Low": 36,
+        "Moderate": 6,
+        "Very High": 4,
+        "High": 4
+      },
+      "N": {
+        "spearman_rho": 0.008,
+        "p": 0.957,
+        "kruskal_p": 0.798
+      },
+      "P": {
+        "spearman_rho": -0.047,
+        "p": 0.743,
+        "kruskal_p": 0.538
+      },
+      "K": {
+        "spearman_rho": 0.026,
+        "p": 0.859,
+        "kruskal_p": 0.814
+      }
+    }
+  },
+  "interpolation": {
+    "N": {
+      "morans_I": 0.083,
+      "perm_p": 0.168,
+      "idw_r2": -0.108,
+      "nn_r2": -0.656,
+      "mean_baseline_r2": -0.041
+    },
+    "P": {
+      "morans_I": 0.267,
+      "perm_p": 0.014,
+      "idw_r2": 0.116,
+      "nn_r2": -0.098,
+      "mean_baseline_r2": -0.041
+    },
+    "K": {
+      "morans_I": 0.009,
+      "perm_p": 0.343,
+      "idw_r2": -0.295,
+      "nn_r2": -0.691,
+      "mean_baseline_r2": -0.041
+    }
+  }
+}

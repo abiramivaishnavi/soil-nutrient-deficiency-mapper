@@ -1,5 +1,11 @@
+"""
+fetch_sakri_npk_region_elevation.py
+
+Fetches Copernicus 30m DEM for the SAME expanded bbox as
+fetch_sakri_npk_region_imagery.py, for pixel alignment.
+"""
+
 from sentinelhub import SentinelHubRequest, DataCollection, MimeType, CRS, BBox
-# pyrefly: ignore [missing-import]
 from sentinel_config import get_config
 
 config = get_config()
@@ -8,11 +14,11 @@ cdse_dem = DataCollection.DEM_COPERNICUS_30.define_from(
     "cdse_dem", service_url=config.sh_base_url
 )
 
-# Same bounding box as your Sentinel-2 imagery, for pixel alignment
-bbox = BBox(bbox=[74.320, 20.870, 74.420, 20.970], crs=CRS.WGS84)
+# SAME bbox as fetch_sakri_npk_region_imagery.py
+bbox = BBox(bbox=[73.91, 20.78, 74.44, 21.24], crs=CRS.WGS84)
 
 request = SentinelHubRequest(
-    data_folder="sakri_elevation",
+    data_folder="sakri_npk_region_elevation",
     evalscript="""//VERSION=3
     function setup() {
         return { input: ["DEM"], output: { bands: 1, sampleType: "FLOAT32" } };
@@ -25,9 +31,10 @@ request = SentinelHubRequest(
     )],
     responses=[SentinelHubRequest.output_response('default', MimeType.TIFF)],
     bbox=bbox,
-    size=(1024, 1024),   # same size as your Sentinel-2 fetch, for alignment
+    size=(1024, 1024),  # SAME size as imagery fetch -- pixel alignment
     config=config
 )
 
 data = request.get_data(save_data=True)
-print("Downloaded Copernicus 30m DEM elevation data for Sakri region.")
+print("Downloaded Copernicus 30m DEM for the EXPANDED Sakri Taluka NPK region.")
+print("Saved to sakri_npk_region_elevation/")

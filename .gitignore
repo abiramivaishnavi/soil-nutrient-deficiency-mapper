@@ -30,4 +30,18 @@ sakri_predictions/
 
 # OS
 .DS_Store
-Thumbs.db
+Thumbs.dbIndia.7z
+WoSIS_2023_December/
+__MACOSX/
+*.tif
+*.tiff
+*.npy
+sakri_imagery_date2/
+sakri_indices_date2/
+App.jsx
+sentinal_config.py
+*.docx
+
+India.7z
+sakri_npk_region_elevation/
+sakri_npk_region_imagery/

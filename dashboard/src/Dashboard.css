@@ -1,0 +1,425 @@
+/* Visual-first dashboard additions. Imported by App.jsx AFTER App.css. */
+:root {
+    --sd-panel: #17291f;
+    --sd-line: rgba(169, 194, 163, 0.18);
+    --sd-muted: #a9c2a3;
+    --sd-g1: #4a8f52;
+    --sd-amber: #D98E2B;
+}
+
+.tab-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 0 0 14px;
+    flex-wrap: wrap;
+}
+
+.tab-title h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.kpi-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.kpi {
+    background: var(--sd-panel);
+    border-radius: 14px;
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.kpi .k-label {
+    font-size: 11px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--sd-muted);
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.kpi .k-value {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.kpi .k-sub {
+    font-size: 12px;
+    color: var(--sd-muted);
+    text-align: center;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-map {
+    display: grid;
+    grid-template-columns: minmax(0, 2.2fr) minmax(260px, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+    .grid-map {
+        grid-template-columns: 1fr;
+    }
+}
+
+.chart-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 0 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.legend-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: center;
+    font-size: 12px;
+    color: var(--sd-muted);
+    margin-top: 8px;
+}
+
+.legend-inline .sw {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.chart-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.chart-svg text {
+    fill: var(--sd-muted);
+    font-size: 11px;
+    font-family: inherit;
+}
+
+.chart-svg .val {
+    fill: #e8f1e4;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.info {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid var(--sd-muted);
+    color: var(--sd-muted);
+    font-size: 11px;
+    cursor: help;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    outline: none;
+}
+
+.info .info-pop {
+    display: none;
+    position: absolute;
+    z-index: 2000;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 260px;
+    background: #0d1a12;
+    border: 1px solid var(--sd-line);
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-size: 12px;
+    line-height: 1.45;
+    color: #dbe8d6;
+    text-align: left;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .5);
+}
+
+.info:hover .info-pop,
+.info:focus .info-pop {
+    display: block;
+}
+
+.map-wrap {
+    position: relative;
+}
+
+.map-chip {
+    position: absolute;
+    z-index: 1000;
+    left: 12px;
+    bottom: 12px;
+    background: rgba(13, 26, 18, .9);
+    border: 1px solid var(--sd-line);
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.map-chip .row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 12px;
+    justify-content: center;
+}
+
+.toolbar select {
+    background: #0d1a12;
+    color: #e8f1e4;
+    border: 1px solid var(--sd-line);
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 13px;
+}
+
+.seg {
+    display: inline-flex;
+    background: #0d1a12;
+    border: 1px solid var(--sd-line);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.seg button {
+    background: transparent;
+    color: var(--sd-muted);
+    border: 0;
+    padding: 7px 12px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.seg button.on {
+    background: var(--sd-g1);
+    color: #fff;
+}
+
+.banner {
+    background: rgba(217, 142, 43, .12);
+    border: 1px solid rgba(217, 142, 43, .4);
+    border-radius: 10px;
+    padding: 9px 12px;
+    font-size: 13px;
+    color: #f0d9b0;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.callout {
+    background: rgba(110, 159, 94, .1);
+    border: 1px solid rgba(110, 159, 94, .35);
+    border-radius: 10px;
+    padding: 9px 12px;
+    font-size: 13px;
+    color: #cfe3c9;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.stack {
+    display: flex;
+    height: 22px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #0d1a12;
+}
+
+.stack>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 600;
+    min-width: 0;
+}
+
+.band {
+    position: relative;
+    height: 16px;
+    border-radius: 6px;
+    overflow: visible;
+    display: flex;
+    margin: 26px 0 22px;
+}
+
+.band>div {
+    height: 100%;
+}
+
+.band .mark {
+    position: absolute;
+    top: -8px;
+    width: 3px;
+    height: 32px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.band .mark b {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.band .tick {
+    position: absolute;
+    top: 20px;
+    font-size: 10px;
+    color: var(--sd-muted);
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.nut-card {
+    background: #12241a;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+}
+
+.nut-card h4 {
+    margin: 0 0 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.hbar {
+    display: grid;
+    grid-template-columns: 90px 1fr 54px;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.hbar .track {
+    height: 14px;
+    background: #0d1a12;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.hbar .fill {
+    height: 100%;
+    border-radius: 7px;
+}
+
+.heat {
+    display: grid;
+    gap: 3px;
+    font-size: 12px;
+}
+
+.heat .c {
+    padding: 10px 4px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.heat .h {
+    color: var(--sd-muted);
+    text-align: center;
+    font-size: 11px;
+    padding: 4px 2px;
+    align-self: end;
+}
+
+.farmer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.status-card {
+    background: var(--sd-panel);
+    border-radius: 16px;
+    padding: 20px 16px;
+    text-align: center;
+}
+
+.status-card .big {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.status-card .nm {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.status-card .st {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 4px 0;
+}
+
+.status-card .ml {
+    font-size: 13px;
+    color: var(--sd-muted);
+}
+
+.foot-banner {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    background: var(--sd-panel);
+    font-size: 12px;
+    color: var(--sd-muted);
+    text-align: center;
+}

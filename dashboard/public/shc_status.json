@@ -1,0 +1,618 @@
+{
+  "limits_kg_ha": {
+    "N": {
+      "low_below": 280,
+      "high_above": 560
+    },
+    "P": {
+      "low_below": 10,
+      "high_above": 25
+    },
+    "K": {
+      "low_below": 120,
+      "high_above": 280
+    }
+  },
+  "source": "ICAR-IISS Harit Dhara 4(1), 2021 (Soil Health Card critical limits)",
+  "readings": 171,
+  "locations": 50,
+  "summary": {
+    "N": {
+      "readings_pct": {
+        "Low": 99.4,
+        "Medium": 0.6,
+        "High": 0.0
+      },
+      "locations_pct": {
+        "Low": 100.0,
+        "Medium": 0.0,
+        "High": 0.0
+      },
+      "min": 115.0,
+      "max": 312.2,
+      "mean": 213.6
+    },
+    "P": {
+      "readings_pct": {
+        "Low": 2.3,
+        "Medium": 93.0,
+        "High": 4.7
+      },
+      "locations_pct": {
+        "Low": 2.0,
+        "Medium": 98.0,
+        "High": 0.0
+      },
+      "min": 6.1,
+      "max": 34.7,
+      "mean": 18.9
+    },
+    "K": {
+      "readings_pct": {
+        "Low": 0.0,
+        "Medium": 2.9,
+        "High": 97.1
+      },
+      "locations_pct": {
+        "Low": 0.0,
+        "Medium": 0.0,
+        "High": 100.0
+      },
+      "min": 204.4,
+      "max": 774.0,
+      "mean": 438.7
+    }
+  },
+  "points": [
+    {
+      "village": "Shewali (Ma. )",
+      "lat": 20.795299,
+      "lon": 74.366915,
+      "N": 215.6,
+      "P": 19.0,
+      "K": 423.2,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Bhadgaon (Ma)",
+      "lat": 20.805005,
+      "lon": 74.412831,
+      "N": 226.4,
+      "P": 18.8,
+      "K": 452.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Nilgavhan",
+      "lat": 20.863994,
+      "lon": 74.339347,
+      "N": 177.5,
+      "P": 18.4,
+      "K": 308.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Pratappur",
+      "lat": 20.868024,
+      "lon": 74.258243,
+      "N": 235.3,
+      "P": 21.2,
+      "K": 467.2,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Shelbari",
+      "lat": 20.889902,
+      "lon": 74.133279,
+      "N": 236.7,
+      "P": 19.7,
+      "K": 466.6,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Manjari",
+      "lat": 20.890119,
+      "lon": 73.966511,
+      "N": 229.8,
+      "P": 17.3,
+      "K": 452.8,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Nadse",
+      "lat": 20.891067,
+      "lon": 74.319663,
+      "N": 139.7,
+      "P": 21.5,
+      "K": 336.3,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Chhail",
+      "lat": 20.891764,
+      "lon": 74.264391,
+      "N": 238.6,
+      "P": 20.5,
+      "K": 457.5,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Shewali (Ma. )",
+      "lat": 20.89207,
+      "lon": 74.423309,
+      "N": 214.3,
+      "P": 17.7,
+      "K": 410.3,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Dhangai",
+      "lat": 20.893938,
+      "lon": 74.183892,
+      "N": 197.5,
+      "P": 19.4,
+      "K": 448.2,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Chhail",
+      "lat": 20.894144,
+      "lon": 74.265736,
+      "N": 238.6,
+      "P": 20.5,
+      "K": 457.5,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Chhail",
+      "lat": 20.898256,
+      "lon": 74.286471,
+      "N": 227.6,
+      "P": 20.2,
+      "K": 455.7,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Chhail",
+      "lat": 20.898389,
+      "lon": 74.274281,
+      "N": 234.7,
+      "P": 22.0,
+      "K": 481.2,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Chhail",
+      "lat": 20.89911,
+      "lon": 74.274832,
+      "N": 234.7,
+      "P": 22.0,
+      "K": 481.2,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Pimpalgaon Khurd",
+      "lat": 20.899167,
+      "lon": 73.949932,
+      "N": 221.0,
+      "P": 18.2,
+      "K": 377.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Ozarade",
+      "lat": 20.90439,
+      "lon": 74.111246,
+      "N": 228.1,
+      "P": 20.2,
+      "K": 468.1,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Kadyale",
+      "lat": 20.904441,
+      "lon": 74.13947,
+      "N": 251.3,
+      "P": 19.5,
+      "K": 486.3,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Kudashi",
+      "lat": 20.909159,
+      "lon": 74.015407,
+      "N": 193.0,
+      "P": 7.8,
+      "K": 463.0,
+      "N_status": "Low",
+      "P_status": "Low",
+      "K_status": "High"
+    },
+    {
+      "village": "Sukapur",
+      "lat": 20.910441,
+      "lon": 74.066083,
+      "N": 240.3,
+      "P": 19.3,
+      "K": 466.4,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Nadse",
+      "lat": 20.911031,
+      "lon": 74.293804,
+      "N": 192.0,
+      "P": 22.9,
+      "K": 319.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Khargaon",
+      "lat": 20.924609,
+      "lon": 73.964548,
+      "N": 171.0,
+      "P": 19.5,
+      "K": 349.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Nadse",
+      "lat": 20.942964,
+      "lon": 74.292473,
+      "N": 213.0,
+      "P": 18.2,
+      "K": 446.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Nadse",
+      "lat": 20.943748,
+      "lon": 74.291673,
+      "N": 213.0,
+      "P": 18.2,
+      "K": 446.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Umarpata",
+      "lat": 20.957857,
+      "lon": 73.924281,
+      "N": 197.0,
+      "P": 17.9,
+      "K": 439.3,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Basarawal",
+      "lat": 20.99239,
+      "lon": 73.922872,
+      "N": 257.6,
+      "P": 19.9,
+      "K": 458.6,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Waki",
+      "lat": 20.992523,
+      "lon": 74.065683,
+      "N": 208.5,
+      "P": 22.4,
+      "K": 474.6,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Surpan",
+      "lat": 21.006161,
+      "lon": 74.235133,
+      "N": 213.3,
+      "P": 17.7,
+      "K": 457.7,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Dahiwel",
+      "lat": 21.011838,
+      "lon": 74.251305,
+      "N": 125.0,
+      "P": 12.5,
+      "K": 298.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Shivajinagar",
+      "lat": 21.021802,
+      "lon": 74.050742,
+      "N": 192.4,
+      "P": 18.1,
+      "K": 394.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Kuher",
+      "lat": 21.04345,
+      "lon": 74.014871,
+      "N": 216.7,
+      "P": 18.2,
+      "K": 434.7,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Hanumantpada",
+      "lat": 21.046389,
+      "lon": 73.96597,
+      "N": 240.6,
+      "P": 18.4,
+      "K": 459.5,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Bhamer",
+      "lat": 21.054182,
+      "lon": 74.307131,
+      "N": 160.6,
+      "P": 19.2,
+      "K": 612.8,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Jamkhel",
+      "lat": 21.059464,
+      "lon": 74.06596,
+      "N": 211.7,
+      "P": 17.8,
+      "K": 417.6,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Kuruswade",
+      "lat": 21.080081,
+      "lon": 74.06492,
+      "N": 222.0,
+      "P": 19.1,
+      "K": 429.8,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Amali",
+      "lat": 21.096817,
+      "lon": 74.045526,
+      "N": 253.9,
+      "P": 16.9,
+      "K": 452.4,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Domkani",
+      "lat": 21.102665,
+      "lon": 74.252238,
+      "N": 211.5,
+      "P": 18.0,
+      "K": 453.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Khudane",
+      "lat": 21.108866,
+      "lon": 74.301964,
+      "N": 210.0,
+      "P": 17.2,
+      "K": 421.4,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Dhavali Vihir",
+      "lat": 21.134576,
+      "lon": 74.168961,
+      "N": 211.4,
+      "P": 23.0,
+      "K": 344.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Akhade",
+      "lat": 21.147066,
+      "lon": 74.3485,
+      "N": 233.1,
+      "P": 20.2,
+      "K": 457.8,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Navapur",
+      "lat": 21.158495,
+      "lon": 74.186187,
+      "N": 234.1,
+      "P": 21.0,
+      "K": 475.7,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Pangan",
+      "lat": 21.171173,
+      "lon": 74.130422,
+      "N": 252.2,
+      "P": 20.0,
+      "K": 452.7,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Khori",
+      "lat": 21.185437,
+      "lon": 74.330239,
+      "N": 179.5,
+      "P": 20.9,
+      "K": 432.1,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Valwhe",
+      "lat": 21.187934,
+      "lon": 74.169502,
+      "N": 182.5,
+      "P": 16.5,
+      "K": 437.5,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Basar",
+      "lat": 21.188491,
+      "lon": 74.220385,
+      "N": 198.3,
+      "P": 21.6,
+      "K": 394.2,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Kuttarmare",
+      "lat": 21.194193,
+      "lon": 74.262252,
+      "N": 195.3,
+      "P": 16.5,
+      "K": 395.3,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Panhalipada",
+      "lat": 21.198106,
+      "lon": 74.261941,
+      "N": 226.3,
+      "P": 14.2,
+      "K": 466.9,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Pachale",
+      "lat": 21.21027,
+      "lon": 74.224393,
+      "N": 229.0,
+      "P": 19.4,
+      "K": 362.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Panhalipada",
+      "lat": 21.212635,
+      "lon": 74.290399,
+      "N": 246.3,
+      "P": 19.5,
+      "K": 367.3,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Korde",
+      "lat": 21.225866,
+      "lon": 74.248255,
+      "N": 193.0,
+      "P": 18.1,
+      "K": 678.0,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    },
+    {
+      "village": "Isarde",
+      "lat": 21.227691,
+      "lon": 74.262933,
+      "N": 217.1,
+      "P": 15.1,
+      "K": 410.7,
+      "N_status": "Low",
+      "P_status": "Medium",
+      "K_status": "High"
+    }
+  ]
+}

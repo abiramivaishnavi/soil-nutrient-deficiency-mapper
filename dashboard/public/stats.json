@@ -54,5 +54,19 @@
       "P": 20.0,
       "K": 20.0
     }
+  },
+  "soilgrids_layers": {
+    "nitrogen": {
+      "mean_g_per_kg": 1.331,
+      "min_g_per_kg": 0.93,
+      "max_g_per_kg": 2.18,
+      "source": "SoilGrids v2.0 (ISRIC) \u2014 globally modelled reference layer, 250m resolution"
+    },
+    "cec_potassium_proxy": {
+      "mean_mmol_per_kg": 37.235,
+      "min_mmol_per_kg": 31.1,
+      "max_mmol_per_kg": 41.4,
+      "source": "SoilGrids v2.0 (ISRIC) \u2014 Cation Exchange Capacity, used as an established proxy for potassium-holding capacity"
+    }
   }
 }

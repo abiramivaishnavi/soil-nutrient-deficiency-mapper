@@ -1,0 +1,467 @@
+{
+  "points": [
+    {
+      "village": "Shewali (Ma. )",
+      "lat": 20.795299,
+      "lon": 74.366915,
+      "nitrogen": 215.6,
+      "phosphorus": 19.0,
+      "potassium": 423.2,
+      "num_readings": 1
+    },
+    {
+      "village": "Bhadgaon (Ma)",
+      "lat": 20.805005,
+      "lon": 74.412831,
+      "nitrogen": 226.4,
+      "phosphorus": 18.8,
+      "potassium": 452.0,
+      "num_readings": 8
+    },
+    {
+      "village": "Nilgavhan",
+      "lat": 20.863994,
+      "lon": 74.339347,
+      "nitrogen": 177.5,
+      "phosphorus": 18.4,
+      "potassium": 308.0,
+      "num_readings": 2
+    },
+    {
+      "village": "Pratappur",
+      "lat": 20.868024,
+      "lon": 74.258243,
+      "nitrogen": 235.3,
+      "phosphorus": 21.2,
+      "potassium": 467.2,
+      "num_readings": 1
+    },
+    {
+      "village": "Shelbari",
+      "lat": 20.889902,
+      "lon": 74.133279,
+      "nitrogen": 236.7,
+      "phosphorus": 19.7,
+      "potassium": 466.6,
+      "num_readings": 8
+    },
+    {
+      "village": "Manjari",
+      "lat": 20.890119,
+      "lon": 73.966511,
+      "nitrogen": 229.8,
+      "phosphorus": 17.3,
+      "potassium": 452.8,
+      "num_readings": 2
+    },
+    {
+      "village": "Nadse",
+      "lat": 20.891067,
+      "lon": 74.319663,
+      "nitrogen": 139.7,
+      "phosphorus": 21.5,
+      "potassium": 336.3,
+      "num_readings": 3
+    },
+    {
+      "village": "Chhail",
+      "lat": 20.891764,
+      "lon": 74.264391,
+      "nitrogen": 238.6,
+      "phosphorus": 20.5,
+      "potassium": 457.5,
+      "num_readings": 4
+    },
+    {
+      "village": "Shewali (Ma. )",
+      "lat": 20.89207,
+      "lon": 74.423309,
+      "nitrogen": 214.3,
+      "phosphorus": 17.7,
+      "potassium": 410.3,
+      "num_readings": 9
+    },
+    {
+      "village": "Dhangai",
+      "lat": 20.893938,
+      "lon": 74.183892,
+      "nitrogen": 197.5,
+      "phosphorus": 19.4,
+      "potassium": 448.2,
+      "num_readings": 2
+    },
+    {
+      "village": "Chhail",
+      "lat": 20.894144,
+      "lon": 74.265736,
+      "nitrogen": 238.6,
+      "phosphorus": 20.5,
+      "potassium": 457.5,
+      "num_readings": 4
+    },
+    {
+      "village": "Chhail",
+      "lat": 20.898256,
+      "lon": 74.286471,
+      "nitrogen": 227.6,
+      "phosphorus": 20.2,
+      "potassium": 455.7,
+      "num_readings": 3
+    },
+    {
+      "village": "Chhail",
+      "lat": 20.898389,
+      "lon": 74.274281,
+      "nitrogen": 234.7,
+      "phosphorus": 22.0,
+      "potassium": 481.2,
+      "num_readings": 3
+    },
+    {
+      "village": "Chhail",
+      "lat": 20.89911,
+      "lon": 74.274832,
+      "nitrogen": 234.7,
+      "phosphorus": 22.0,
+      "potassium": 481.2,
+      "num_readings": 3
+    },
+    {
+      "village": "Pimpalgaon Khurd",
+      "lat": 20.899167,
+      "lon": 73.949932,
+      "nitrogen": 221.0,
+      "phosphorus": 18.2,
+      "potassium": 377.0,
+      "num_readings": 1
+    },
+    {
+      "village": "Ozarade",
+      "lat": 20.90439,
+      "lon": 74.111246,
+      "nitrogen": 228.1,
+      "phosphorus": 20.2,
+      "potassium": 468.1,
+      "num_readings": 3
+    },
+    {
+      "village": "Kadyale",
+      "lat": 20.904441,
+      "lon": 74.13947,
+      "nitrogen": 251.3,
+      "phosphorus": 19.5,
+      "potassium": 486.3,
+      "num_readings": 1
+    },
+    {
+      "village": "Kudashi",
+      "lat": 20.909159,
+      "lon": 74.015407,
+      "nitrogen": 193.0,
+      "phosphorus": 7.8,
+      "potassium": 463.0,
+      "num_readings": 2
+    },
+    {
+      "village": "Sukapur",
+      "lat": 20.910441,
+      "lon": 74.066083,
+      "nitrogen": 240.3,
+      "phosphorus": 19.3,
+      "potassium": 466.4,
+      "num_readings": 2
+    },
+    {
+      "village": "Nadse",
+      "lat": 20.911031,
+      "lon": 74.293804,
+      "nitrogen": 192.0,
+      "phosphorus": 22.9,
+      "potassium": 319.0,
+      "num_readings": 1
+    },
+    {
+      "village": "Khargaon",
+      "lat": 20.924609,
+      "lon": 73.964548,
+      "nitrogen": 171.0,
+      "phosphorus": 19.5,
+      "potassium": 349.0,
+      "num_readings": 1
+    },
+    {
+      "village": "Nadse",
+      "lat": 20.942964,
+      "lon": 74.292473,
+      "nitrogen": 213.0,
+      "phosphorus": 18.2,
+      "potassium": 446.0,
+      "num_readings": 2
+    },
+    {
+      "village": "Nadse",
+      "lat": 20.943748,
+      "lon": 74.291673,
+      "nitrogen": 213.0,
+      "phosphorus": 18.2,
+      "potassium": 446.0,
+      "num_readings": 2
+    },
+    {
+      "village": "Umarpata",
+      "lat": 20.957857,
+      "lon": 73.924281,
+      "nitrogen": 197.0,
+      "phosphorus": 17.9,
+      "potassium": 439.3,
+      "num_readings": 2
+    },
+    {
+      "village": "Basarawal",
+      "lat": 20.99239,
+      "lon": 73.922872,
+      "nitrogen": 257.6,
+      "phosphorus": 19.9,
+      "potassium": 458.6,
+      "num_readings": 1
+    },
+    {
+      "village": "Waki",
+      "lat": 20.992523,
+      "lon": 74.065683,
+      "nitrogen": 208.5,
+      "phosphorus": 22.4,
+      "potassium": 474.6,
+      "num_readings": 6
+    },
+    {
+      "village": "Surpan",
+      "lat": 21.006161,
+      "lon": 74.235133,
+      "nitrogen": 213.3,
+      "phosphorus": 17.7,
+      "potassium": 457.7,
+      "num_readings": 1
+    },
+    {
+      "village": "Dahiwel",
+      "lat": 21.011838,
+      "lon": 74.251305,
+      "nitrogen": 125.0,
+      "phosphorus": 12.5,
+      "potassium": 298.0,
+      "num_readings": 1
+    },
+    {
+      "village": "Shivajinagar",
+      "lat": 21.021802,
+      "lon": 74.050742,
+      "nitrogen": 192.4,
+      "phosphorus": 18.1,
+      "potassium": 394.0,
+      "num_readings": 5
+    },
+    {
+      "village": "Kuher",
+      "lat": 21.04345,
+      "lon": 74.014871,
+      "nitrogen": 216.7,
+      "phosphorus": 18.2,
+      "potassium": 434.7,
+      "num_readings": 5
+    },
+    {
+      "village": "Hanumantpada",
+      "lat": 21.046389,
+      "lon": 73.96597,
+      "nitrogen": 240.6,
+      "phosphorus": 18.4,
+      "potassium": 459.5,
+      "num_readings": 2
+    },
+    {
+      "village": "Bhamer",
+      "lat": 21.054182,
+      "lon": 74.307131,
+      "nitrogen": 160.6,
+      "phosphorus": 19.2,
+      "potassium": 612.8,
+      "num_readings": 5
+    },
+    {
+      "village": "Jamkhel",
+      "lat": 21.059464,
+      "lon": 74.06596,
+      "nitrogen": 211.7,
+      "phosphorus": 17.8,
+      "potassium": 417.6,
+      "num_readings": 9
+    },
+    {
+      "village": "Kuruswade",
+      "lat": 21.080081,
+      "lon": 74.06492,
+      "nitrogen": 222.0,
+      "phosphorus": 19.1,
+      "potassium": 429.8,
+      "num_readings": 7
+    },
+    {
+      "village": "Amali",
+      "lat": 21.096817,
+      "lon": 74.045526,
+      "nitrogen": 253.9,
+      "phosphorus": 16.9,
+      "potassium": 452.4,
+      "num_readings": 2
+    },
+    {
+      "village": "Domkani",
+      "lat": 21.102665,
+      "lon": 74.252238,
+      "nitrogen": 211.5,
+      "phosphorus": 18.0,
+      "potassium": 453.0,
+      "num_readings": 2
+    },
+    {
+      "village": "Khudane",
+      "lat": 21.108866,
+      "lon": 74.301964,
+      "nitrogen": 210.0,
+      "phosphorus": 17.2,
+      "potassium": 421.4,
+      "num_readings": 7
+    },
+    {
+      "village": "Dhavali Vihir",
+      "lat": 21.134576,
+      "lon": 74.168961,
+      "nitrogen": 211.4,
+      "phosphorus": 23.0,
+      "potassium": 344.0,
+      "num_readings": 6
+    },
+    {
+      "village": "Akhade",
+      "lat": 21.147066,
+      "lon": 74.3485,
+      "nitrogen": 233.1,
+      "phosphorus": 20.2,
+      "potassium": 457.8,
+      "num_readings": 4
+    },
+    {
+      "village": "Navapur",
+      "lat": 21.158495,
+      "lon": 74.186187,
+      "nitrogen": 234.1,
+      "phosphorus": 21.0,
+      "potassium": 475.7,
+      "num_readings": 3
+    },
+    {
+      "village": "Pangan",
+      "lat": 21.171173,
+      "lon": 74.130422,
+      "nitrogen": 252.2,
+      "phosphorus": 20.0,
+      "potassium": 452.7,
+      "num_readings": 4
+    },
+    {
+      "village": "Khori",
+      "lat": 21.185437,
+      "lon": 74.330239,
+      "nitrogen": 179.5,
+      "phosphorus": 20.9,
+      "potassium": 432.1,
+      "num_readings": 8
+    },
+    {
+      "village": "Valwhe",
+      "lat": 21.187934,
+      "lon": 74.169502,
+      "nitrogen": 182.5,
+      "phosphorus": 16.5,
+      "potassium": 437.5,
+      "num_readings": 6
+    },
+    {
+      "village": "Basar",
+      "lat": 21.188491,
+      "lon": 74.220385,
+      "nitrogen": 198.3,
+      "phosphorus": 21.6,
+      "potassium": 394.2,
+      "num_readings": 1
+    },
+    {
+      "village": "Kuttarmare",
+      "lat": 21.194193,
+      "lon": 74.262252,
+      "nitrogen": 195.3,
+      "phosphorus": 16.5,
+      "potassium": 395.3,
+      "num_readings": 1
+    },
+    {
+      "village": "Panhalipada",
+      "lat": 21.198106,
+      "lon": 74.261941,
+      "nitrogen": 226.3,
+      "phosphorus": 14.2,
+      "potassium": 466.9,
+      "num_readings": 4
+    },
+    {
+      "village": "Pachale",
+      "lat": 21.21027,
+      "lon": 74.224393,
+      "nitrogen": 229.0,
+      "phosphorus": 19.4,
+      "potassium": 362.0,
+      "num_readings": 1
+    },
+    {
+      "village": "Panhalipada",
+      "lat": 21.212635,
+      "lon": 74.290399,
+      "nitrogen": 246.3,
+      "phosphorus": 19.5,
+      "potassium": 367.3,
+      "num_readings": 1
+    },
+    {
+      "village": "Korde",
+      "lat": 21.225866,
+      "lon": 74.248255,
+      "nitrogen": 193.0,
+      "phosphorus": 18.1,
+      "potassium": 678.0,
+      "num_readings": 1
+    },
+    {
+      "village": "Isarde",
+      "lat": 21.227691,
+      "lon": 74.262933,
+      "nitrogen": 217.1,
+      "phosphorus": 15.1,
+      "potassium": 410.7,
+      "num_readings": 8
+    }
+  ],
+  "total_locations": 50,
+  "total_readings": 171,
+  "source": "Soil Health Card portal, cross-verified against SLUSI Sakri Taluka boundary maps",
+  "bounds": [
+    [
+      20.795299,
+      73.922872
+    ],
+    [
+      21.227691,
+      74.423309
+    ]
+  ]
+}
